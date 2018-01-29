@@ -1,0 +1,12 @@
+*/config/development
+*/logs/log-*.php
+*/logs/!index.html
+*/logs/*
+*/cache/*
+*/cache/!index.html
+*/cache/!.htaccess
+*/captcha/*.jpg
+*/sessions/ci_session*
+.DS_Store
+Thumbs.db
+._*

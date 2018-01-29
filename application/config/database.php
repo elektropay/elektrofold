@@ -63,11 +63,11 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-	'dsn'          => '',
-	'hostname'     => '108.167.191.197',
-	'username'     => 'everpay_master',
-	'password'     => 'Parise03',
-	'database'     => 'everpay_mwallet',
+	'dsn'          => 'postgres://opmycnxavsesvt:fb933f5a804f258c6d7e76e5b6c71b4779e25581c7437b62b462e1b1447d34bd@ec2-54-235-240-126.compute-1.amazonaws.com:5432/d1fl3vm0pf4j9k',
+	'hostname'     => 'ec2-54-235-240-126.compute-1.amazonaws.com',
+	'username'     => 'opmycnxavsesvt',
+	'password'     => 'fb933f5a804f258c6d7e76e5b6c71b4779e25581c7437b62b462e1b1447d34bd',
+	'database'     => 'd1fl3vm0pf4j9k',
 	'dbdriver'     => 'mysql',
 	'dbprefix'     => '',
 	'pconnect'     => FALSE,

@@ -64,11 +64,11 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'          => '',
-	'hostname'     => '',
-	'username'     => '',
-	'password'     => '',
-	'database'     => '',
-	'dbdriver'     => 'mysqli',
+	'hostname'     => 'https://elektrollet.herokuapp.com/',
+	'username'     => 'everpay_master',
+	'password'     => 'Jasmine8075',
+	'database'     => 'everpay_mwallet',
+	'dbdriver'     => 'mysql',
 	'dbprefix'     => '',
 	'pconnect'     => FALSE,
 	'db_debug'     => TRUE,

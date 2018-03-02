@@ -63,11 +63,11 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-	'dsn'          => 'mysql://xkgn55d5ymckb7ps:uyza0j9ldvot6u5h@mnwax9mxzow0k7hi.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/d97pk85krsi6pox9',
+	'dsn'          => '',
 	'hostname'     => 'mnwax9mxzow0k7hi.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
 	'username'     => 'xkgn55d5ymckb7ps',
 	'password'     => 'uyza0j9ldvot6u5h',
-	'database'     => 'd97pk85krsi6pox9',
+	'database'     => 'mysql://xkgn55d5ymckb7ps:uyza0j9ldvot6u5h@mnwax9mxzow0k7hi.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/d97pk85krsi6pox9',
 	'dbdriver'     => 'mysql',
 	'dbprefix'     => '',
 	'pconnect'     => FALSE,

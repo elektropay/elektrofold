@@ -49,10 +49,25 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Examples:	my-controller/index	-> my_controller/index
 |		my-controller/my-method	-> my_controller/my_method
 */
-$route['default_controller']   = 'welcome';
+$route['default_controller']   = 'user/login';
 $route['404_override']         = '';
 $route['translate_uri_dashes'] = FALSE;
 
 $route['login']                = 'user/login';
 $route['logout']               = 'user/logout';
-$route['admin']                = 'admin/dashboard';
+/*
+  | -------------------------------------------------------------------------
+  | Sample REST API Routes
+  | -------------------------------------------------------------------------
+ */
+$route['api/recipients/(\w{2})/get'] = 'Api/Recipients/all/$1';
+$route['api/recipient/(\w{2})/(:num)/get'] = 'Api/Recipients/one/$1/$2';
+$route['api/recipient/set'] = 'Api/Recipients/set';
+
+$route['api/transfers/(\w{2})/get'] = 'Api/Transfers/all/$1';
+$route['api/transfer/(\w{2})/(:num)/get'] = 'Api/Transfers/one/$1/$2';
+$route['api/transfer/set'] = 'Api/Transfers/set';
+
+
+
+

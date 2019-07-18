@@ -63,7 +63,7 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-	'dsn'          => 'mysql://aq4pbb6v67j1qv2q:v3gz7xrwpc13r2rc@gmgcjwawatv599gq.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/fmyq66ne7ipr62le',
+	'dsn'          => '',
 	'hostname'     => 'gmgcjwawatv599gq.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
 	'username'     => 'aq4pbb6v67j1qv2q',
 	'password'     => 'v3gz7xrwpc13r2rc',
